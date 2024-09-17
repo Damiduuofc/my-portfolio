@@ -1,14 +1,16 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "My priority is to deliver a bug-free interface with zero bugs to my client",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a Saas App",
+    description: "story telling app",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "I'm Available For Hire",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -76,7 +78,7 @@ export const projects = [
     des: "AI trip planners recommend destinations, suggest itineraries, and optimize travel.",
     img: "/tripsaga.png",
     iconLists: ["/re.svg", "/tail.svg", "/firebase.svg", "/vercel.svg", "/google.png"],
-    link: "/https://trip-sage-ai.vercel.app",
+    link: "https://trip-sage-ai.vercel.app",
   },
   {
     id: 2,
@@ -84,7 +86,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/coffee.png",
     iconLists: ["/re.svg", "/tail.svg", "/framer-motion.svg", "/next.svg", "/gsap.svg"],
-    link: "/https://coffee-landing-page-gamma.vercel.app",
+    link: "https://coffee-landing-page-gamma.vercel.app",
   },
   //  {
   //    id: 3,
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/Damiduuxd"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "instagram.svg",
+    link:"https://www.instagram.com/damiduu.xd/"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"www.linkedin.com/in/damidu-abeysinghe"
   },
 ];
