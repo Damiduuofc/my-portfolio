@@ -1,1 +1,1 @@
-nom run dev
+npm run dev
