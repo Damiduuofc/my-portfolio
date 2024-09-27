@@ -217,6 +217,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link:"www.linkedin.com/in/damidu-abeysinghe"
+    link:"https://www.linkedin.com/in/damidu-abeysinghe"
   },
 ];
