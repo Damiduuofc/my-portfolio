@@ -82,7 +82,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "coffe shop landing page",
+    title: "Coffee shop landing page",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/coffee.png",
     iconLists: ["/re.svg", "/tail.svg", "/framer-motion.svg", "/next.svg", "/gsap.svg"],
@@ -217,6 +217,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link:"www.linkedin.com/in/damidu-abeysinghe"
+    link:"https://www.linkedin.com/in/damidu-abeysinghe"
   },
 ];
