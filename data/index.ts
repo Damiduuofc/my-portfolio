@@ -211,12 +211,12 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "instagram.svg",
+    img: "/instagram.svg",
     link:"https://www.instagram.com/damiduu.xd/"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/linkedin.svg",
     link:"https://www.linkedin.com/in/damidu-abeysinghe"
   },
 ];

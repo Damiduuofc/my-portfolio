@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
+      <h1 className="heading cursor-default">
         My <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
@@ -126,7 +126,7 @@ const Card = ({
           // change text-3xl, add text-center
           className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
-         group-hover/canvas-card:-translate-y-2 transition duration-200"
+         group-hover/canvas-card:-translate-y-2 transition duration-200 cursor-default"
         >
           {title}
         </h2>
@@ -134,7 +134,7 @@ const Card = ({
         <p
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
-         group-hover/canvas-card:-translate-y-2 transition duration-200"
+         group-hover/canvas-card:-translate-y-2 transition duration-200 cursor-default"
           style={{ color: "#E4ECFF" }}
         >
           {des}
