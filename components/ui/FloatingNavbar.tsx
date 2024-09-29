@@ -61,8 +61,10 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-        <img src={Logo.src} alt="Logo" className="h-3 w-14 mr-4" /> {/* Logo image */}
-
+        <a href="#">
+        <img src={Logo.src} 
+        alt="Logo" className="h-3 w-14 mr-4 cursor-pointer" /> {/* Logo image */}
+</a>
         <div className="flex items-center space-x-4">
           {navItems.map((navItem: NavItem, idx: number) => (
             <Link
