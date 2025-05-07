@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "My priority is to deliver a bug-free interface with zero bugs to my client",
+    title: "Providing my clients with a clean interface with no bugs is my top priority",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -51,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Website",
-    description: "Responsive Hotel Booking Website using React JS ",
+    title: "Currently learning java.",
+    description: "Developing an e-commerce system ",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
