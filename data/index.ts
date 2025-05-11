@@ -93,8 +93,7 @@ export const projects = [
        title: "Uni Budget Tracker",
        des: "Your smart university finance companion.",
        img: "/Uni.png",
-       iconLists: [ "/vitejs.svg","/re.svg", "/tail.svg",
-       "/framer-motion.svg", "/jsx.svg"],
+       iconLists: [ "/re.svg","/firebase.svg"],
        link: "https://studio--uni-budget-tracker-oqlja.us-central1.hosted.app",
     },
   // {
