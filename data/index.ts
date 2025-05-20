@@ -212,7 +212,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/instagram.svg",
-    link:"https://www.instagram.com/damiduu.xd/"
+    link:"https://www.instagram.com/damiduuofc/"
   },
   {
     id: 3,
