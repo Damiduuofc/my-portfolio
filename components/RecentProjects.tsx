@@ -44,9 +44,10 @@ const RecentProjects = () => {
                 className="block"
               >
                 {/* Updated title styling */}
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base overflow-hidden text-ellipsis whitespace-nowrap w-full">
-                  {item.title}
-                </h1>
+               <h1 className="font-bold lg:text-2xl md:text-xl text-base overflow-hidden text-ellipsis whitespace-nowrap w-full">
+                {item.title}
+                    </h1>
+
               </a>
 
               <a
