@@ -11,6 +11,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
+
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
@@ -43,11 +44,9 @@ const RecentProjects = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                {/* Updated title styling */}
-               <h1 className="font-bold lg:text-2xl md:text-xl text-base overflow-hidden text-ellipsis whitespace-nowrap w-full">
-                {item.title}
-                    </h1>
-
+                <h1 className="font-bold text-base md:text-xl lg:text-2xl whitespace-nowrap overflow-hidden text-ellipsis w-full text-white">
+                  {item.title}
+                </h1>
               </a>
 
               <a
@@ -81,6 +80,7 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
+
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                   <div className="flex justify-center items-center">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
